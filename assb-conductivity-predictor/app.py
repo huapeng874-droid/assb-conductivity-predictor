@@ -28,13 +28,13 @@ features = [
 
 sg = st.number_input("Space Group", value=0)
 
-a = st.number_input("a", value=0)
-b = st.number_input("b", value=0)
-c = st.number_input("c", value=0)
+a = st.number_input("a (Å)", value=0)
+b = st.number_input("b (Å)", value=0)
+c = st.number_input("c (Å)", value=0)
 
-alpha = st.number_input("alpha", value=0)
-beta = st.number_input("beta", value=0)
-gamma = st.number_input("gamma", value=0)
+alpha = st.number_input("alpha (degree)", value=0)
+beta = st.number_input("beta (degree)", value=0)
+gamma = st.number_input("gamma (degree)", value=0)
 
 z = st.number_input("Z", value=0)
 
