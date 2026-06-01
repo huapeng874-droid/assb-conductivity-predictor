@@ -36,7 +36,7 @@ alpha = st.number_input("alpha", value=0)
 beta = st.number_input("beta", value=0)
 gamma = st.number_input("gamma", value=0)
 
-z = st.number_input("Z", value=4)
+z = st.number_input("Z", value=0)
 
 n_elements = st.number_input("n_elements", value=0)
 
