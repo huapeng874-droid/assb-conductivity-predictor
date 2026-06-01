@@ -26,30 +26,30 @@ features = [
     'Cl_amt'
 ]
 
-sg = st.number_input("Space Group", value=216)
+sg = st.number_input("Space Group", value=0)
 
-a = st.number_input("a", value=10.0)
-b = st.number_input("b", value=10.0)
-c = st.number_input("c", value=10.0)
+a = st.number_input("a", value=0)
+b = st.number_input("b", value=0)
+c = st.number_input("c", value=0)
 
-alpha = st.number_input("alpha", value=90.0)
-beta = st.number_input("beta", value=90.0)
-gamma = st.number_input("gamma", value=90.0)
+alpha = st.number_input("alpha", value=0)
+beta = st.number_input("beta", value=0)
+gamma = st.number_input("gamma", value=0)
 
 z = st.number_input("Z", value=4)
 
-n_elements = st.number_input("n_elements", value=4)
+n_elements = st.number_input("n_elements", value=0)
 
-Li_amt = st.number_input("Li_amt", value=6)
+Li_amt = st.number_input("Li_amt", value=0)
 Na_amt = st.number_input("Na_amt", value=0)
 
 O_amt = st.number_input("O_amt", value=0)
-S_amt = st.number_input("S_amt", value=5)
+S_amt = st.number_input("S_amt", value=0)
 
-P_amt = st.number_input("P_amt", value=1)
+P_amt = st.number_input("P_amt", value=0)
 F_amt = st.number_input("F_amt", value=0)
 
-Cl_amt = st.number_input("Cl_amt", value=1)
+Cl_amt = st.number_input("Cl_amt", value=0)
 
 if st.button("Predict"):
 
