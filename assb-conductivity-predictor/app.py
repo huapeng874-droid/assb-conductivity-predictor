@@ -78,3 +78,16 @@ if st.button("Predict"):
     st.info(
         f"Estimated conductivity = {conductivity:.3e} S/cm"
     )
+uploaded_file = st.file_uploader(
+    "Upload CSV File",
+    type=["csv"]
+)
+if uploaded_file is not None:
+
+    df = pd.read_csv(uploaded_file)
+
+    pred = model.predict(df)
+
+    df["Predicted_logIC"] = pred
+
+    st.dataframe(df)
